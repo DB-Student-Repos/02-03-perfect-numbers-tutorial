@@ -13,6 +13,6 @@ def classify(number):
     if (sum == number):
         return "perfect"
     elif (sum > number):
-        return " abundant"
+        return "abundant"
     else:
         return "deficient"
